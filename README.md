@@ -5,7 +5,8 @@ es primordial automatizar la busqueda de vulnerabilidades, ya que esto permite q
 
 Se desarrolló una herramienta denominada AttackProxy, la cual permite realizar un ataque de fuerza bruta hacia un servicio 
 proxy que se encuentre disponible. Cuando se realiza un Pentesting en BlackBox (Caja Negra), el pentester puede 
-encontrarse limitado si tiene que auditar un servicio como este y no tiene la capacidad para acceder a él.
+encontrarse limitado si tiene que auditar un servicio como este, ya que probar credenciales de manera manual se vuelve
+un tanto fastidioso.
 
 
 #Usage
