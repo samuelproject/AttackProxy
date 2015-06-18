@@ -1,6 +1,6 @@
 # AttackProxy
 
-En el mundo de la Seguridad Informática es importante realizar análisis de vulnerabilidades de manera manual, sin embargo
+En el mundo de la Seguridad Informática es importante realizar análisis de vulnerabilidades de forma manual, sin embargo
 es primordial automatizar la busqueda de vulnerabilidades, ya que esto permite que el Pentester pueda optimizar el tiempo, y de esta  manera obtener resultados de una manera mas expedita, (Por supuesto que es importante verificar que las vulnerabilidades encontradas no se traten de falsos positivos).
 
 Se desarrolló una herramienta denominada AttackProxy, la cual permite realizar un ataque de fuerza bruta hacia un servicio 
