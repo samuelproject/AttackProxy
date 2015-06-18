@@ -38,7 +38,7 @@ Ejemplo Tool en ejecución
 
 
 Como se puede observar en las imagenes anteriores, es posible realizar un ataque de fuerza bruta hacia este servicio.
-Cabe destacar que si no se conoce el nombre de usuario de Proxy, puede utilizar la opción -U la cual permite utilizar una lista de nombre de usuarios, para realizar el ataque.
+Cabe destacar que si no se conoce el nombre de usuario de Proxy, se puede utilizar la opción -U la cual permite utilizar una lista de nombre de usuarios, para realizar el ataque.
 
 Nota Legal
 ----
