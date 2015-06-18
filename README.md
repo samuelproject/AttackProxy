@@ -1,17 +1,18 @@
 # AttackProxy
 
 En el mundo de la Seguridad Informática es importante realizar análisis de vulnerabilidades de manera manual, sin embargo
-al momento de automatizar la busqueda de vulnerabilidades, permite que el Pentester pueda optimizar el tiempo, y de esta 
-manera obtener resultados de una manera mas expedita, (Por supuesto que es importante verificar que las vulnerabilidades
-encontradas no se traten de falsos positivos).
+es primordial automatizar la busqueda de vulnerabilidades, ya que esto permite que el Pentester pueda optimizar el tiempo, y de esta  manera obtener resultados de una manera mas expedita, (Por supuesto que es importante verificar que las vulnerabilidades encontradas no se traten de falsos positivos).
 
-Desarrollé una herramienta denominada AttackProxy, la cual permite realizar un ataque de fuerza bruta hacia un servicio 
-que se encuentre con esta autenticación. Cuando se realiza un Pentesting en BlackBox (Caja Negra), el pentester puede 
-encontrarse limitado si tiene que auditar un servicio como este y no tiene la capacidad para evadirlo.
+Se desarrolló una herramienta denominada AttackProxy, la cual permite realizar un ataque de fuerza bruta hacia un servicio 
+proxy que se encuentre disponible. Cuando se realiza un Pentesting en BlackBox (Caja Negra), el pentester puede 
+encontrarse limitado si tiene que auditar un servicio como este y no tiene la capacidad para acceder a él.
 
 
 #Usage
 ----
+
+Dar permisos de ejecución,chmod +x.
+Posteriormente:
 
 ./AttackProxy.py -h 
 
@@ -34,6 +35,10 @@ Ejemplo Tool en ejecución
 
 ![ScreenShot] (https://cloud.githubusercontent.com/assets/12612092/8217618/edc32d98-1514-11e5-998b-f9b9f476ab2c.JPG)
 
+
+Como se puede observar en las imagenes anteriores, es posible realizar un ataque de fuerza bruta hacia este servicio,
+además.
+Cabe destacar que si no se conoce el nombre de usuario de Proxy, puede utilizar la opción -U la cual permite utilizar una lista de nombre de usuarios, para realizar el ataque.
 
 Nota Legal
 ----
